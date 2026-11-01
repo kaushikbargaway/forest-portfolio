@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   font-family:'DM Sans',sans-serif;
   color:#203d2e;
   background:#f7f6ef;
@@ -637,6 +637,9 @@ a {
 }
 .socials a:hover {
   transform:translateY(-3px);
+}
+.toolkit:not(#experience) {
+  background:#f7f6ef
 }
 @keyframes forest-arrive {
   from {
