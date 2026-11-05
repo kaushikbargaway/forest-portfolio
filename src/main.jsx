@@ -24,31 +24,39 @@ const projects = [
     title: 'Intelligent Wi-Fi Fault Diagnosis',
     description: 'A diagnostic system that learns from network telemetry, tests scenarios in a digital twin, and recommends practical recovery steps.',
     tags: ['Python', 'FastAPI', 'Random Forest', 'RAG'],
-    link: 'https://github.com/kaushikbargaway/wifi-fault-diagnosis.git'
+    link: 'https://github.com/kaushikbargaway/wifi-fault-diagnosis'
   },
   {
     number: '02',
+    category: 'DISTRIBUTED SYSTEMS · SYSTEM DESIGN',
+    title: 'Distributed Rate Limiter',
+    description: 'A scalable distributed API gateway implementing Token Bucket rate limiting with atomic Redis Lua scripts, dynamic configuration through ZooKeeper, HAProxy load balancing, and automated autoscaling.',
+    tags: ['C++17', 'Redis', 'Lua', 'ZooKeeper', 'HAProxy', 'Docker', 'Python'],
+    link: 'https://github.com/kaushikbargaway/distributed-rate-limiter'
+  },
+  {
+    number: '03',
     category: 'BACKEND · SYSTEM DESIGN',
     title: 'LinkForge',
     description: 'A URL-shortening and analytics platform built with a clean Java backend and persistent storage.',
     tags: ['Java', 'Spring Boot', 'MySQL', 'JPA'],
-    link: 'https://github.com/kaushikbargaway/linkforge.git'
+    link: 'https://github.com/kaushikbargaway/linkforge'
   },
   {
-    number: '03',
+    number: '04',
     category: 'GENERATIVE AI · RETRIEVAL',
     title: 'Healthcare Symptom Analysis',
     description: 'A hybrid retrieval-augmented application designed to provide context-aware symptom information and triage guidance.',
     tags: ['LangChain', 'FAISS', 'Python', 'LLM'],
-    link: 'https://github.com/kaushikbargaway'
+    link: 'https://github.com/kaushikbargaway/healthcare-symptom-analysis-triage'
   },
   {
-    number: '04',
+    number: '05',
     category: 'FULL STACK · WEB',
     title: 'Movies & TV Library',
     description: 'A web experience for exploring movies and television, bringing together a responsive interface and media data.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB'],
-    link: 'https://github.com/kaushikbargaway'
+    link: 'https://github.com/kaushikbargaway/Movies-And-TV-Library'
   },
 ];
 
@@ -566,7 +574,7 @@ function App() {
 
     <div>
       <small>06 / PROBLEM SOLVING</small>
-      <strong>265+ LeetCode problems</strong>
+      <strong>270+ LeetCode problems</strong>
       <p>
         Data structures, algorithms, and steady practice.
       </p>
