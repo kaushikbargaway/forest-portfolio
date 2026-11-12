@@ -58,6 +58,21 @@ const projects = [
     tags: ['React', 'Node.js', 'Express', 'MongoDB'],
     link: 'https://github.com/kaushikbargaway/Movies-And-TV-Library'
   },
+  {
+    number: '06',
+    category: 'AI ASSISTANT · MCP ARCHITECTURE',
+    title: 'KAIRO',
+    description: "KAIRO (Kaushik's AI for Interactive Reasoning and Orchestration) is an extensible personal desktop AI assistant built with Python and Model Context Protocol (MCP), featuring dynamic tool discovery, standardized client-server communication, and intelligent note management through custom MCP tools, resources, and prompts.",
+    tags: [
+        'Python',
+        'MCP',
+        'MCP SDK',
+        'AI Agents',
+        'STDIO',
+        'Git'
+    ],
+    link: 'https://github.com/kaushikbargaway/kairo'
+ },
 ];
 
 const fadeUp = {
